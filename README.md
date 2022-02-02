@@ -5,9 +5,9 @@
 - Color de texto: #1F1FFF y color de fondo: #A3A3A3.
 - Color de texto: #000047 y color de fondo: #B8B8B8.
 
-¿Cómo les ayudarías a seleccionar la mejor opción? [#1]
+¿Cómo les ayudarías a seleccionar la mejor opción? [(#1)]
 
-**2.** Los subtítulos ponen nuestro contenido a disposición de una audiencia mayor, en la que se incluyen personas con problemas auditivos, o bien personas que hablan un idioma distinto al del vídeo. ¿Cómo incluirías subtítulos en un vídeo? ¿se puede hacer directamente desde YouTube? [#2]
+**2.** Los subtítulos ponen nuestro contenido a disposición de una audiencia mayor, en la que se incluyen personas con problemas auditivos, o bien personas que hablan un idioma distinto al del vídeo. ¿Cómo incluirías subtítulos en un vídeo? ¿se puede hacer directamente desde YouTube? (#2)
 
 **3.** Visualiza tu portal web como lo vería una persona que tuviera las imágenes y el código JavaScript deshabilitado. Existen múltiples formas de hacerlo, pero la más sencilla de todas es utilizar las opciones que vienen incluidas en el propio navegador de Chrome: botón de los tres puntos / Configuración/ Privacidad/ Configuración del sitio web/ deshabilitar imágenes y JavaScript. ¿Qué tal la experiencia?
 
@@ -30,7 +30,7 @@ c. ¿Qué harías para indicar el idioma de un enlace?
 ```
 <a href="eniun.com/en/" title="English translation">English</a>
 ```
-**5.** Prueba a incluir el logo [#3] adecuado que acredita el nivel de accesibiliad en tu proyecto. Puedes dejarlo inscrustrado para la entrega si lo deseas.
+**5.** Prueba a incluir el logo [ (#3) ] adecuado que acredita el nivel de accesibiliad en tu proyecto. Puedes dejarlo inscrustrado para la entrega si lo deseas.
 
 ## REFERENCIAS
 <a name="1"></a>
