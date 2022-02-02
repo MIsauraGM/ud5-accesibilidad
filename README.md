@@ -1,34 +1,13 @@
 # UD5-Accesibilidad
 
-<a name="top"></a>
-# Título de nuestro documento
- 
-## Índice de contenidos
-* [Contenido 1](#item1)
-* [Contenido 2](#item2)
-* [Contenido 3](#item3)
-* [Contenido 4](#item4)
- 
-Lorem ipsum dolor
- 
-<a name="item1"></a>
-### Contenido 1
- 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-[Subir](#top)
- 
-<a name="item2"></a>
-### Contenido 2
-
 **1.** Tu compañero de desarrollo web tienen dudas sobre cuál es la combinación de color más accesible entre las siguientes opciones:
 
 - Color de texto: #1F1FFF y color de fondo: #A3A3A3.
 - Color de texto: #000047 y color de fondo: #B8B8B8.
 
-¿Cómo les ayudarías a seleccionar la mejor opción? [(#1)]
+¿Cómo les ayudarías a seleccionar la mejor opción? [1](#item1)
 
-**2.** Los subtítulos ponen nuestro contenido a disposición de una audiencia mayor, en la que se incluyen personas con problemas auditivos, o bien personas que hablan un idioma distinto al del vídeo. ¿Cómo incluirías subtítulos en un vídeo? ¿se puede hacer directamente desde YouTube? (#2)
+**2.** Los subtítulos ponen nuestro contenido a disposición de una audiencia mayor, en la que se incluyen personas con problemas auditivos, o bien personas que hablan un idioma distinto al del vídeo. ¿Cómo incluirías subtítulos en un vídeo? ¿se puede hacer directamente desde YouTube? [2](#item2)
 
 **3.** Visualiza tu portal web como lo vería una persona que tuviera las imágenes y el código JavaScript deshabilitado. Existen múltiples formas de hacerlo, pero la más sencilla de todas es utilizar las opciones que vienen incluidas en el propio navegador de Chrome: botón de los tres puntos / Configuración/ Privacidad/ Configuración del sitio web/ deshabilitar imágenes y JavaScript. ¿Qué tal la experiencia?
 
@@ -51,12 +30,14 @@ c. ¿Qué harías para indicar el idioma de un enlace?
 ```
 <a href="eniun.com/en/" title="English translation">English</a>
 ```
-**5.** Prueba a incluir el logo [ (#3) ] adecuado que acredita el nivel de accesibiliad en tu proyecto. Puedes dejarlo inscrustrado para la entrega si lo deseas.
+**5.** Prueba a incluir el logo [3](#item3) adecuado que acredita el nivel de accesibiliad en tu proyecto. Puedes dejarlo inscrustrado para la entrega si lo deseas.
 
 ## REFERENCIAS
-<a name="1"></a>
+<a name="item1"></a>
 [1] Color Contrast Checker (Aplicación para comprobar el contraste entre fondo y texto): https://webaim.org/resources/contrastchecker/
-<a name="2"></a>
+
+<a name="item2"></a>
 [2] Añadir subtítulos a videos en YouTube: https://www.youtube.com/watch?v=LCZ-cxfxzvk
-<a name="3"></a>
+
+<a name="item3"></a>
 [3] ¿Cómo usar los logos de conformidad de accesibilidad de la W3C?: https://www.w3.org/WAI/WCAG1-Conformance
