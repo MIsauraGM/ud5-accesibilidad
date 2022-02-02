@@ -7,5 +7,17 @@
 
 ¿Cómo les ayudarías a seleccionar la mejor opción?
 
+**2.** Los subtítulos ponen nuestro contenido a disposición de una audiencia mayor, en la que se incluyen personas con problemas auditivos, o bien personas que hablan un idioma distinto al del vídeo. ¿Cómo incluirías subtítulos en un vídeo? ¿se puede hacer directamente desde YouTube?
+
+**3.** Visualiza tu portal web como lo vería una persona que tuviera las imágenes y el código JavaScript deshabilitado. Existen múltiples formas de hacerlo, pero la más sencilla de todas es utilizar las opciones que vienen incluidas en el propio navegador de Chrome: botón de los tres puntos / Configuración/ Privacidad/ Configuración del sitio web/ deshabilitar imágenes y JavaScript. ¿Qué tal la experiencia?
+
+**4.** La etiqueta de idioma, en HTML, beneficia a todos los usuarios:
+- Facilita la lectura de los lectores de pantalla y síntesis de voz baille.
+- Los motores de búsqueda identifican los contenidos del idioma deseado.
+- Se utiliza para cambiar la voz en la pronunciación de un texto en otro idioma, etc.
+¿Cómo indicarías el idioma de una web? ¿y el idioma de una palabra concreta, el de una etiqueta de cita o el de una etiqueta blockquote? ¿qué harías para indicar el idioma de un enlace?
+
+
 ## REFERENCIAS
 Color Contrast Checker (Aplicación para comprobar el contraste entre fondo y texto): https://webaim.org/resources/contrastchecker/
+Añadir subtítulos a videos en YouTube: https://www.youtube.com/watch?v=LCZ-cxfxzvk
