@@ -64,7 +64,33 @@ Podríamos acceder a través de Alt+g. ¡Ojo! Con duplicar teclas en estos atrib
 
 **13.** Como bien sabemos, los CAPTCHAS presentan muchos problemas de accesibilidad para ciertos grupos de usuarios. Las personas daltónicas o con visión reducida pueden no ver bien las combinaciones de colores con letras y números a descifrar. Por otra parte, es evidente que una persona ciega que utiliza un lector de pantalla no puede contestar a los CAPTCHAS basados en imágenes. ¿Qué alternativas hay al uso de un CAPTCHA? ¿Cómo es el nuevo reCAPTCHA v3 de Google y qué mejoras trae? [[5]](#item5)
 
-**14.** Bootstrap nos ayuda a que nuestros sitios web sean accesibles incluyendo en los ejemplos de código los elementos y atributos HTML recomendados para conseguir aplicaciones accesibles. Analiza la página web que creaste en la tarea de Bootstrap ([UD2-T16. Bootstrap](https://educacionadistancia.juntadeandalucia.es/centros/cadiz/mod/assign/view.php?id=385777)) y encuentra los atributos WAI-ARIA utilizados. Fíjate, por ejemplo, en los atributos role y aria-hidden. Explica por qué se han utilizado esos atributos.
+**14.** El atributo global tabindex indica si su elemento puede ser enfocado, y si participa en la navegación secuencial del teclado (usualmente con la tecla Tabulador, de ahí el nombre). Acepta un entero como valor, con diferentes resultados que dependen de dicho valor. 
+- un valor negativo (usualmente tabindex="-1") significa que el elemento debe ser enfocado, pero no debe de ser accesible a través de la navegación secuencial del teclado. Es útil para crear widgets accesibles con JavaScript.
+- tabindex="0" significa que el elemento debe ser enfocado y ser accesible a través de la navegación secuencial del teclado, pero su orden relativo es definido por convención de la plataforma.
+- un valor positivo significa que debe poder recoger el foco y alcanzable a través de la navegación secuencial del teclado; su orden relativo es definido por el valor del atributo: la secuencia sigue el aumento del número de tabindex. Si varios elementos comparten el mismo tabindex, su orden relativo sigue la posición relativa en el documento.
+Un elemento con valor 0, un valor inválido o sin valor de tabindex, debe de ser posicionado después de elementos con un tabindex postivo en el orden de navegación secuencial del teclado.
+Prueba el siguiente código y analiza el comportamiento del foco en cada uno de los elementos al usar la tecla Tabulador.
+
+```
+<p>PÁRRAFO SIN FOCO</p>
+  <p>PÁRRAFO SIN FOCO</p>
+  <p>PÁRRAFO SIN FOCO</p>
+  <p tabindex="0">PRIMER PÁRRAFO (con foco)</p>
+  <p tabindex="-1">SEGUNDO PÁRRAFO (sin foco con teclado, sí JavaScript)</p>
+  <p tabindex="1">PRIMER PÁRRAFO (con foco orden=1)</p>
+  <p tabindex="2">PRIMER PÁRRAFO (con foco orden=2)</p>
+  <p tabindex="0">CERO PÁRRAFO (con foco sin orden "0")</p>
+  <p tabindex="4">CUARTO PÁRRAFO (con foco orden=4)</p>
+  <p tabindex="6">SEXTO PÁRRAFO (con foco orden=6)</p>
+  <p tabindex="5">QUINTO PÁRRAFO (con foco orden=5)</p>
+  <p tabindex="3">TERCER PÁRRAFO (con foco orden=3)</p>
+  <a href="#">Enlace con foco 0</a>
+  <a href="#">Enlace con foco 0</a>
+  <a tabindex="2" href="#">Enlace con foco 2</a>
+```
+**15.** Revisa el comportamiento del foco de los elementos en tu proyecto haciendo uso de la tecla tab. Añade a tu proyecto (enlaces, formulario, y otros elementos que tenga interacción el usuario) el atributo tabindex de forma adecuada.
+
+**16.** Bootstrap nos ayuda a que nuestros sitios web sean accesibles incluyendo en los ejemplos de código los elementos y atributos HTML recomendados para conseguir aplicaciones accesibles. Analiza la página web que creaste en la tarea de Bootstrap ([UD2-T16. Bootstrap](https://educacionadistancia.juntadeandalucia.es/centros/cadiz/mod/assign/view.php?id=385777)) y encuentra los atributos WAI-ARIA utilizados. Fíjate, por ejemplo, en los atributos role y aria-hidden. Explica por qué se han utilizado esos atributos.
 
 
 ## REFERENCIAS
