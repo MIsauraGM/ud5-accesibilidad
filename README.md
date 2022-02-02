@@ -72,7 +72,7 @@ Un elemento con valor 0, un valor inválido o sin valor de tabindex, debe de ser
 Prueba el siguiente código y analiza el comportamiento del foco en cada uno de los elementos al usar la tecla Tabulador.
 
 ```
-<p>PÁRRAFO SIN FOCO</p>
+  <p>PÁRRAFO SIN FOCO</p>
   <p>PÁRRAFO SIN FOCO</p>
   <p>PÁRRAFO SIN FOCO</p>
   <p tabindex="0">PRIMER PÁRRAFO (con foco)</p>
