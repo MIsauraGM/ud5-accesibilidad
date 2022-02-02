@@ -64,6 +64,10 @@ Podríamos acceder a través de Alt+g. ¡Ojo! Con duplicar teclas en estos atrib
 
 **13.** Como bien sabemos, los CAPTCHAS presentan muchos problemas de accesibilidad para ciertos grupos de usuarios. Las personas daltónicas o con visión reducida pueden no ver bien las combinaciones de colores con letras y números a descifrar. Por otra parte, es evidente que una persona ciega que utiliza un lector de pantalla no puede contestar a los CAPTCHAS basados en imágenes. ¿Qué alternativas hay al uso de un CAPTCHA? ¿Cómo es el nuevo reCAPTCHA v3 de Google y qué mejoras trae? [[5]](#item5)
 
+**14.** Bootstrap nos ayuda a que nuestros sitios web sean accesibles incluyendo en los ejemplos de código los elementos y atributos HTML recomendados para conseguir aplicaciones accesibles. Analiza la página web que creaste en la tarea de Bootstrap (UD2-T16. Bootstrap(https://educacionadistancia.juntadeandalucia.es/centros/cadiz/mod/assign/view.php?id=385777)) y encuentra los atributos WAI-ARIA utilizados. Fíjate, por ejemplo, en los atributos role y aria-hidden. Explica por qué se han utilizado esos atributos.
+
+
+
 
 ## REFERENCIAS
 <a name="item1"></a>
