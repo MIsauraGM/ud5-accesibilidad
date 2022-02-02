@@ -22,8 +22,8 @@ a. ¿Cómo indicarías el idioma de una web?
 ```
 b. ¿Y el idioma de una palabra concreta, el de una etiqueta de cita o el de una etiqueta blockquote?
 ```
-<p>Un extracto de <cite lang="en">Brave New World</cite></p>
-<blockquote lang="en">Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</bloquote>
+<p>Un extracto de <cite>Brave New World</cite></p>
+<blockquote>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</bloquote>
 ```
   
 c. ¿Qué harías para indicar el idioma de un enlace?
