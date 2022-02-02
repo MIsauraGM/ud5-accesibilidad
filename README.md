@@ -29,7 +29,7 @@ b. ¿Y el idioma de una palabra concreta, un enlace, una etiqueta de cita o el d
 
 **5.** Prueba a incluir el logo [[3]](#item3) adecuado que acredita el nivel de accesibiliad en tu proyecto. Puedes dejarlo inscrustrado para la entrega si lo deseas.
 
-**6.** ¿Le pondrías un texto alternativo al logotipo de una empresa? ¿Qué texto alternativo? ¿y a una imagen decorativa?
+**6.** ¿Le pondrías un texto alternativo al logotipo de una empresa? ¿Qué texto alternativo? ¿y a una imagen decorativa? [[6]](#item6)
 
 **7.** ¿Qué nivel de conformidad exigirías para un sitio web muy complejo? ¿Qué nivel se exige en España legislativamente a todas las páginas web administrativas?
 
@@ -67,8 +67,6 @@ Podríamos acceder a través de Alt+g. ¡Ojo! Con duplicar teclas en estos atrib
 **14.** Bootstrap nos ayuda a que nuestros sitios web sean accesibles incluyendo en los ejemplos de código los elementos y atributos HTML recomendados para conseguir aplicaciones accesibles. Analiza la página web que creaste en la tarea de Bootstrap ([UD2-T16. Bootstrap](https://educacionadistancia.juntadeandalucia.es/centros/cadiz/mod/assign/view.php?id=385777)) y encuentra los atributos WAI-ARIA utilizados. Fíjate, por ejemplo, en los atributos role y aria-hidden. Explica por qué se han utilizado esos atributos.
 
 
-
-
 ## REFERENCIAS
 <a name="item1"></a>
 [1] Color Contrast Checker (Aplicación para comprobar el contraste entre fondo y texto): https://webaim.org/resources/contrastchecker/
@@ -83,4 +81,7 @@ Podríamos acceder a través de Alt+g. ¡Ojo! Con duplicar teclas en estos atrib
 [4] Saltarse los estilos de una web especificando los del usuario: https://www.itsupportguides.com/knowledge-base/computer-accessibility/how-to-use-a-custom-style-sheet-css-with-google-chrome/
 
 <a name="item5"></a>
-[5]Captcha y reCaptcha: https://www.xataka.com/basics/captcha-recaptcha-que-cuales-sus-diferencias-que-cambia-recaptcha-v3
+[5] Captcha y reCaptcha: https://www.xataka.com/basics/captcha-recaptcha-que-cuales-sus-diferencias-que-cambia-recaptcha-v3
+
+<a name="item6"></a>
+[6] Mapa de decisión para proporcionar textos alternativos a las imágenes: https://www.usableyaccesible.com/textosalternativosaccesibles/mapa_decision_texto_alternativo.php
