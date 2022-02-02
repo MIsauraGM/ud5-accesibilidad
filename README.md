@@ -20,16 +20,13 @@ a. ¿Cómo indicarías el idioma de una web?
 ```
 <html>
 ```
-b. ¿Y el idioma de una palabra concreta, el de una etiqueta de cita o el de una etiqueta blockquote?
+b. ¿Y el idioma de una palabra concreta, un enlace, una etiqueta de cita o el de una etiqueta blockquote?
 ```
 <p>Un extracto de <cite>Brave New World</cite></p>
 <blockquote>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</bloquote>
-```
-  
-c. ¿Qué harías para indicar el idioma de un enlace?
-```
 <a href="eniun.com/en/" title="English translation">English</a>
 ```
+
 **5.** Prueba a incluir el logo [[3]](#item3) adecuado que acredita el nivel de accesibiliad en tu proyecto. Puedes dejarlo inscrustrado para la entrega si lo deseas.
 
 ## REFERENCIAS
