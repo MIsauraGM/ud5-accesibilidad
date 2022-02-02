@@ -29,6 +29,17 @@ b. ¿Y el idioma de una palabra concreta, un enlace, una etiqueta de cita o el d
 
 **5.** Prueba a incluir el logo [[3]](#item3) adecuado que acredita el nivel de accesibiliad en tu proyecto. Puedes dejarlo inscrustrado para la entrega si lo deseas.
 
+**6.** ¿Le pondrías un texto alternativo al logotipo de una empresa? ¿Qué texto alternativo? ¿y a una imagen decorativa?
+
+**7.** ¿Qué nivel de conformidad exigirías para un sitio web muy complejo? ¿Qué nivel se exige en España legislativamente a todas las páginas web administrativas?
+
+**8.** En cuanto a accesibilidad, ¿por qué crees que es importante separar los estilos (CSS) de los contenidos y la estructura del documento (HTML)? Instala la extenisón Stylish [[4]](#item4), crea algunos estilos y comprueba que los estilos de tu sitio son sobreescritos.
+
+**9.** Las teclas de acceso rápido permiten rápidamente activa el foco de un elemento en tu página presionando una tecla concreta, usuamente en combinación de la tecla Alt (Ctrl+Alt en Mac). Añade a los enlaces de tu portafolio el atributo 'accesskey' y comprueba que efectivamente puedes acceder a dichos enlaces a través de la combinación de teclas que has definido. Ej: <a href="google.com" accesskey="g">Link to Google</a> Podríamos acceder a través de Alt+g. ¡Ojo! Con duplicar teclas en estos atributos ya que podría tener un efecto negativo en la navegación de los usuarios.
+
+**10.** Abre tu portafolio en tu navegador Chrome y accede al DevTools, (F12 o a través del menú contextual y seleccionando "Inspeccionar"). Entra en la sección "Lighthouse" y asegúrate que esté solo marcada la opción "Accesibilidad" y "Desktop" a continuación, pulsa en el botón "Generar informe". Adjunta la captura de la puntuación y errores que se han detectado. ¿Son los mismos que ha detectado las otras herramientas de test de accesibiliad online?
+
+
 ## REFERENCIAS
 <a name="item1"></a>
 [1] Color Contrast Checker (Aplicación para comprobar el contraste entre fondo y texto): https://webaim.org/resources/contrastchecker/
@@ -38,3 +49,6 @@ b. ¿Y el idioma de una palabra concreta, un enlace, una etiqueta de cita o el d
 
 <a name="item3"></a>
 [3] ¿Cómo usar los logos de conformidad de accesibilidad de la W3C?: https://www.w3.org/WAI/WCAG1-Conformance
+
+<a name="item4"></a>
+[4] Saltarse los estilos de una web especificando los del usuario: https://www.itsupportguides.com/knowledge-base/computer-accessibility/how-to-use-a-custom-style-sheet-css-with-google-chrome/
