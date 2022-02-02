@@ -62,7 +62,7 @@ Podríamos acceder a través de Alt+g. ¡Ojo! Con duplicar teclas en estos atrib
 ```
 ¿Qué mejoras realizarías?
 
-**13.** Como bien sabemos, los CAPTCHAS presentan muchos problemas de accesibilidad para ciertos grupos de usuarios. Las personas daltónicas o con visión reducida pueden no ver bien las combinaciones de colores con letras y números a descifrar. Por otra parte, es evidente que una persona ciega que utiliza un lector de pantalla no puede contestar a los CAPTCHAS basados en imágenes. ¿Qué alternativas hay al uso de un CAPTCHA? ¿Cómo es el nuevo reCAPTCHA v3 de Google y qué mejoras trae?
+**13.** Como bien sabemos, los CAPTCHAS presentan muchos problemas de accesibilidad para ciertos grupos de usuarios. Las personas daltónicas o con visión reducida pueden no ver bien las combinaciones de colores con letras y números a descifrar. Por otra parte, es evidente que una persona ciega que utiliza un lector de pantalla no puede contestar a los CAPTCHAS basados en imágenes. ¿Qué alternativas hay al uso de un CAPTCHA? ¿Cómo es el nuevo reCAPTCHA v3 de Google y qué mejoras trae? [5](#item5)
 
 
 ## REFERENCIAS
@@ -77,3 +77,6 @@ Podríamos acceder a través de Alt+g. ¡Ojo! Con duplicar teclas en estos atrib
 
 <a name="item4"></a>
 [4] Saltarse los estilos de una web especificando los del usuario: https://www.itsupportguides.com/knowledge-base/computer-accessibility/how-to-use-a-custom-style-sheet-css-with-google-chrome/
+
+<a name="item5"></a>
+[5]Captcha y reCaptcha: https://www.xataka.com/basics/captcha-recaptcha-que-cuales-sus-diferencias-que-cambia-recaptcha-v3
