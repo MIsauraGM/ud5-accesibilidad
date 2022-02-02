@@ -43,6 +43,7 @@ Podríamos acceder a través de Alt+g. ¡Ojo! Con duplicar teclas en estos atrib
 
 **10.** Abre tu portafolio en tu navegador Chrome y accede al DevTools, (F12 o a través del menú contextual y seleccionando "Inspeccionar"). Entra en la sección "Lighthouse" y asegúrate que esté solo marcada la opción "Accesibilidad" y "Desktop" a continuación, pulsa en el botón "Generar informe". Adjunta la captura de la puntuación y errores que se han detectado. ¿Son los mismos que ha detectado las otras herramientas de test de accesibiliad online?
 
+**11.** Las etiquetas de encabezado definen la cabecera principal de una página (<h1>), así como los subencabezados (de <h2>, <h3> al <h6>) de varias secciones del contenido de una página.
 
 ## REFERENCIAS
 <a name="item1"></a>
