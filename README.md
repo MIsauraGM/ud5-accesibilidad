@@ -45,6 +45,25 @@ Podríamos acceder a través de Alt+g. ¡Ojo! Con duplicar teclas en estos atrib
 
 **11.** Las etiquetas de encabezado definen la cabecera principal de una página (h1), así como los subencabezados (de h2, h3 al h6) de varias secciones del contenido de una página. Son crucial para la accesibilidad del usuario. Como las etiquetas de encabezado están escritas en HTML, la tecnología de asistencia del lector de pantalla puede interpretar la estructura de cualquier página web y leerla en voz alta para los usuarios con discapacidad. Mientras escuchan los encabezados del contenido, pueden decidir si la página contiene lo que necesitan. Además, los lectores de pantalla proporcionan accesos directos que permiten a los usuarios moverse fácilmente entre encabezados, facilitando su navegación. Por esta razón, es clave observar la jerarquía de los H: siempre comenzar con h1, luego usar h2 y así, sucesivamente. De lo contrario, los usuarios del lector de pantalla se confundirán e irán de un lado a otro para encontrar el siguiente encabezado lógico, provocando su abandono. Revisa que la jerarquía de encabezados de tu portafolio es correcta.
 
+**12.** Te han encargado que mejores la accesibilidad de un sitio web que se encuentra maquetado mediante tablas. Su contenido se encuentra representado de la siguiente forma:
+```
+<table>
+    <tr> 
+        <td colspan="2">Cabecera</td>
+    </tr>
+    <tr>
+        <td>Menu</td>
+        <td>Contenido principal</td>
+    </tr>
+    <tr>
+        <td colspan="2">Footer</td>
+    </tr>
+</table>
+```
+¿Qué mejoras realizarías?
+
+
+
 ## REFERENCIAS
 <a name="item1"></a>
 [1] Color Contrast Checker (Aplicación para comprobar el contraste entre fondo y texto): https://webaim.org/resources/contrastchecker/
